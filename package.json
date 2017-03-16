@@ -1,0 +1,59 @@
+{
+  "name": "gulp-sync-bower",
+  "description": "Gulp plugin for sync-bower, which updates bower.json with info from package.json.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/gulp-sync-bower",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/gulp-sync-bower",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/gulp-sync-bower/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "extend-shallow": "^2.0.1",
+    "isobject": "^3.0.0",
+    "sync-bower": "^1.0.0",
+    "through2": "^2.0.3"
+  },
+  "devDependencies": {
+    "gulp-format-md": "^0.1.11",
+    "mocha": "^3.2.0",
+    "vinyl": "^2.0.1"
+  },
+  "keywords": [
+    "gulp",
+    "gulpplugin",
+    "pkg",
+    "sync"
+  ],
+  "verb": {
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "related": {
+      "list": [
+        "gulp-choose-files",
+        "gulp-format-md",
+        "gulp-normalize-pkg"
+      ]
+    },
+    "lint": {
+      "reflinks": true
+    }
+  }
+}
